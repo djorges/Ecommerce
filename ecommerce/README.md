@@ -1,13 +1,11 @@
 # Ecommerce
 
-### Description:
-
 ### Ramas:
 * master
 * cambios(opcional)
 * test(opcional)
 
-###Contribuciones:
+### Contribuciones:
 @djorges
 
 ### Docs:
