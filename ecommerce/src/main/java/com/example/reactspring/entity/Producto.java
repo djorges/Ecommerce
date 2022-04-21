@@ -16,6 +16,21 @@ public class Producto {
     public Producto() {
     }
 
+    public Producto(String nombre, String descripcion, Float precio, int stock) {
+        this.nombre = nombre;
+        this.descripcion = descripcion;
+        this.precio = precio;
+        this.stock = stock;
+    }
+
+    public Producto(int id, String nombre, String descripcion, Float precio, int stock) {
+        this.id = id;
+        this.nombre = nombre;
+        this.descripcion = descripcion;
+        this.precio = precio;
+        this.stock = stock;
+    }
+
     public int getId() {
         return id;
     }

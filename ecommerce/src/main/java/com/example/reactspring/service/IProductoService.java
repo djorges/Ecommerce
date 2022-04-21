@@ -9,6 +9,6 @@ public interface IProductoService {
     Producto save(Producto producto);
     List<Producto> getAll();
     Producto getById(int id) throws EntityNotFoundException;
-    void update(Producto producto) throws EntityNotFoundException;
-    void delete(int id) throws EntityNotFoundException;
+    String update(Producto producto) throws EntityNotFoundException;
+    String delete(int id) throws EntityNotFoundException;
 }
